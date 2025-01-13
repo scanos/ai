@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Our Dogminding Service</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="home">Welcome to Our Dogminding Service</h1>
     <p>Please fill out the form below to contact us</p>
     <form id="contactForm" method="POST" action="save_form.php">
         <label for="name">Name:</label>
@@ -22,14 +31,14 @@
         <button type="submit">Submit</button>
     </form>
     
-    <h2>Testimonials</h2>
-    <div id="testimonials">
+    <h2 id="testimonials">Testimonials</h2>
+    <div>
         <p>"Great service! My dog was very happy." - Client A</p>
         <p>"Highly recommend their dogminding services." - Client B</p>
     </div>
     
-    <h2>Our Location</h2>
-    <div id="location">
+    <h2 id="location">Our Location</h2>
+    <div>
         <p>123 Dog Street, Pet City, PC 45678</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094305!2d144.953735315318!3d-37.81627957975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1b0c7e5%3A0x5045675218ce6e0!2sVictoria!5e0!3m2!1sen!2sau!4v1630229997934!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
